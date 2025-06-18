@@ -27,7 +27,7 @@ jobs:
          uses: actions/download-artifact@v4
          with:
            name: dragon-text-file
-           path: dragon.txt
+           
 
 
        - name: Test File Exists
@@ -42,7 +42,7 @@ jobs:
          uses: actions/download-artifact@v4
          with:
            name: dragon-text-file
-           path: dragon.txt
+           
        - name: Read File
          run: cat dragon.txt
 
